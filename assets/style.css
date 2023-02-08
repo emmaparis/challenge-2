@@ -9,4 +9,76 @@ body {
     display:flex;
     justify-content: space-between;
     align-content: center;
+    border: 10px solid black;
+}
+#header-banner {
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100%;
+    border: 10px solid black;
+}
+h1 {
+    font-size: 30px;
+}
+h3 {
+    color: rgb(82, 109, 159);
+    font-size: 30px;
+}
+a:hover {
+    color: rgb(82, 109, 159);
+    border-bottom: 3px solid rgb(8, 0, 241);
+    
+}
+.nav-links li {
+    display: inline;
+    font-size: 20px;
+    color: rgb(0, 8, 15);
+}
+.nav-links ul {
+    margin-right: 40px;
+    color: black;
+}
+.center {
+    flex-direction: row;
+}
+#about-me {
+    height: 350px;
+    width: 300px;
+    margin-left: 460px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+    border: 10px solid black;
+}
+#google {
+    height: 200px;
+    width: 500px;
+    border: 10px solid black;
+}
+#amazon {
+    height: 200px;
+    width: 500px;
+    border: 10px solid black;
+}
+#verizon {
+    height: 200px;
+    width: 500px;
+    border: 10px solid black;
+}
+#azure {
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+}
+.container {
+    flex-direction: row;
+}
+#instagram {
+    height: 100px;
+    width: 100px;
+    border: 10px solid black;
+}
+#github {
+    height: 100px;
+    width: 100px;
+    border: 10px solid black;
 }
